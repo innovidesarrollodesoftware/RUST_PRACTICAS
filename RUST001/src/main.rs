@@ -1,5 +1,5 @@
 // Hello World with arguments
-fn main(args) {
+fn main() {
     let args: Vec<String> = std::env::args().collect();
-    println!("Hello, world!");
+    println!("Hello, world!", args);
 }
